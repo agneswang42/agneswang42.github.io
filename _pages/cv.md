@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Résumé"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 {% include base_path %}
-
-# Résumé
 
 Please click below to view my current résumé.
 
