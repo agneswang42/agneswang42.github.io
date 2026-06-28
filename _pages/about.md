@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Hi! I'm **Jingqi Wang**, a Computer Science student passionate about software engineering, artificial intelligence, and desigin of algorithms.
+Hi! I'm **Agnes Wang**, a Computer Science student passionate about software engineering, artificial intelligence, and desigin of algorithms.
 
 Welcome to my personal website! Here you'll find my projects, résumé, and technical experience as I continue developing my skills.
 
