@@ -6,7 +6,7 @@ excerpt: "A hardware implementation of the classic Atari PONG game using Verilog
 ---
 
 <p align="center">
-  <img src="/images/fpga-pong.png"
+  <img src="/images/fpga-schematic.png"
        alt="FPGA Atari PONG Schematic"
        width="700">
 </p>
