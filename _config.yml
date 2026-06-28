@@ -23,12 +23,12 @@ repository               : "agneswang42/agneswang42.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           :
+  avatar           : ""
   name             : "Agnes Wang"
   bio              : "Computer Science Student"
   location         : "United States"
   education        : "Rose-Hulman Institute of Technology"
-  email            : "" 
+  email            : "wangj36@rose-hulman.edu" 
 
   # Academic websites
   academia         : # URL
