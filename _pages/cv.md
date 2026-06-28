@@ -9,5 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-You can download my résumé here:
-[Resume](/files/Resume.pdf)
+# Résumé
+
+Please click below to view my current résumé.
+
+📄 [Download Résumé (PDF)](/files/Resume.pdf)
