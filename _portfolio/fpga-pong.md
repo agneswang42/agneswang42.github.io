@@ -5,7 +5,13 @@ permalink: /portfolio/fpga-pong/
 excerpt: "A hardware implementation of the classic Atari PONG game using Verilog HDL on FPGA."
 ---
 
-![FPGA PONG](/images/fpga-pong.png)
+<p align="center">
+  <img src="/images/fpga-pong.png"
+       alt="FPGA Atari PONG Schematic"
+       width="700">
+</p>
+
+<p align="center"><em> Hardware schematic showing major digital logic components of the FPGA-based Atari PONG recreation.</em></p>
 
 ## Overview
 
