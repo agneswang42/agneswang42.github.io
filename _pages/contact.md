@@ -5,8 +5,6 @@ permalink: /contact/
 author_profile: true
 ---
 
-# Contact
-
 I'd be happy to connect!
 
 - **Email:** wangj36@rose-hulman.com
