@@ -5,14 +5,13 @@ permalink: /portfolio/graphsurfing/
 excerpt: "A generic Java graph framework implementing efficient graph representations and algorithms for large-scale graph analysis."
 ---
 
-<figure>
+<p align="center">
   <img src="/images/graphsurfing.png"
        alt="GraphSurfing Architecture"
        width="700">
-  <figcaption>
-    GraphSurfing framework tested on a large-scale Wikipedia hyperlink graph.
-  </figcaption>
-</figure>
+</p>
+
+<p align="center"><em>GraphSurfing framework tested on a large-scale Wikipedia hyperlink graph.</em></p>
 
 ## Overview
 
