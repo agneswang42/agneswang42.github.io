@@ -26,4 +26,4 @@ Expected Graduation: **May 2029**
 ## Contact
 
 - **GitHub:** https://github.com/agneswang42
-- **Email:** your-email@rose-hulman.edu
+- **Email:** wangj36@rose-hulman.edu
