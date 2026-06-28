@@ -5,7 +5,13 @@ permalink: /portfolio/pixel-collision-game/
 excerpt: "A Java GUI game developed using object-oriented programming, UML design, and event-driven programming."
 ---
 
-![Gameplay Screenshot](/images/pixel-game.png)
+<p align="center">
+  <img src="/images/pixel-game.png"
+       alt="Gameplay Screenshot"
+       width="700">
+</p>
+
+<p align="center"><em> Pixel gameplay design with a graphical user interface.</em></p>
 
 ## Overview
 
