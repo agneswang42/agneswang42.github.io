@@ -17,6 +17,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   
   //find all filter buttons and project cards
+  //Citation: https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll
   const filterButtons = document.querySelectorAll("[data-filter]");
   const projects = document.querySelectorAll(".project-card");
 
