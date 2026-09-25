@@ -20,46 +20,50 @@
 
     <main>
 
-        <section
-            class="hero"
-            aria-labelledby="home-heading">
+        <section class="hero" aria-labelledby="home-heading">
 
-            <img
-                src="images/httpcat-208.jpg"
-                alt="Portrait of Agnes Wang"
-                class="profile-photo">
+    <div class="hero-image-area">
+        <div class="hero-decoration"></div>
 
-            <div>
-                <h1 id="home-heading">
-                    Agnes Wang
-                </h1>
-                <p>
-                    Student | Computer Science | Mathematics
-                </p>
-                <p>
-                    Welcome to my portfolio. This website showcases
-                    my education, technical skills, and projects.
-                </p>
-                <p>
-                    I am interested in software development,
-                    computer architecture, machine learning,
-                    and scientific research.
-                </p>
-                <p>
-                    <a
-                        class="button"
-                        href="resume.html">
-                        View My Resume
-                    </a>
-                    <a
-                        class="button"
-                        href="portfolio.html">
-                        View My Projects
-                    </a>
-                </p>
-            </div>
-        </section>
-    </main>
+        <img
+            src="images/httpcat-208.jpg"
+            alt="Portrait of Agnes Wang"
+            class="profile-photo">
+    </div>
+
+    <div class="hero-content">
+        <p class="hero-label">COMPUTER SCIENCE &amp; MATHEMATICS</p>
+
+        <h1 id="home-heading">
+            Agnes Wang
+        </h1>
+
+        <p class="hero-intro">
+            Student, developer, and researcher interested in
+            software development, computer architecture,
+            machine learning, and scientific research.
+        </p>
+
+        <div class="hero-divider"></div>
+
+        <p class="hero-description">
+            Welcome to my portfolio. Explore my academic background,
+            technical skills, and projects in computer science,
+            mathematics, and engineering.
+        </p>
+
+        <div class="hero-buttons">
+            <a class="button" href="resume.html">
+                View My Resume
+            </a>
+
+            <a class="button button-outline" href="portfolio.html">
+                View My Projects
+            </a>
+        </div>
+    </div>
+</section>
+</main>
 
     <!-- Shared footer -->
     {% include portfolio_footer.html %}
