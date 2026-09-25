@@ -1,3 +1,26 @@
+/*
+ * Citations: MDN Web Docs
+ * CSS pseudo-classes and CSS styling
+ * https://developer.mozilla.org/en-US/docs/Web/CSS
+ *
+ * CSS Flexible Box Layout
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout
+ *
+ * CSS Grid Layout
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout
+ *
+ * CSS Media Queries
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries
+ * 
+ * Accessibility
+ * https://developer.mozilla.org/en-US/docs/Web/Accessibility
+ *
+ * prefers-reduced-motion
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion
+ */
+
+
+
 /* Global styles*/
 * {
     box-sizing: border-box;
