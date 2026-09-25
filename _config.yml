@@ -161,7 +161,6 @@ analytics:
 # Reading Files
 include:
   - .htaccess
-  - _pages
   - files
 exclude:
   - "*.sublime-project"
