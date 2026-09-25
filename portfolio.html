@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Agnes Wang | Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Shared navigation bar -->
+    {% include portfolio_nav.html %}
+
+    <main>
+
+        <!-- Page introduction -->
+        <section class="page-intro">
+            <h1>My Projects</h1>
+
+            <p>
+                Here are some of the projects I have completed through
+                coursework, research, and personal interests.
+            </p>
+        </section>
+
+
+        <!-- Project filtering -->
+        <section class="filter-section" aria-labelledby="filter-heading">
+            <h2 id="filter-heading">Explore My Projects</h2>
+            <div class="project-filters" aria-label="Project filters">
+                <button
+                    type="button"
+                    class="filter-button active"
+                    data-filter="all">
+                    All
+                </button>
+                <button
+                    type="button"
+                    class="filter-button"
+                    data-filter="software">
+                    Software
+                </button>
+                <button
+                    type="button"
+                    class="filter-button"
+                    data-filter="hardware">
+                    Hardware
+                </button>
+                <button
+                    type="button"
+                    class="filter-button"
+                    data-filter="research">
+                    Research
+                </button>
+            </div>
+        </section>
+
+
+        <!-- Portfolio projects -->
+        <section class="projects-section" aria-labelledby="projects-heading">
+            <h2 id="projects-heading">Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article
+                    class="project-card"
+                    data-category="hardware">
+
+                    <img
+                        src="images/fpga-schematic.png"
+                        alt="FPGA Atari PONG project schematic">
+
+                    <div class="project-content">
+                        <p class="project-category">
+                            Hardware
+                        </p>
+                        <h3>FPGA Atari PONG</h3>
+
+                        <p>
+                            A hardware implementation of the classic Atari
+                            PONG game developed using an FPGA. The project
+                            involved designing the game logic and implementing
+                            the system in hardware.
+                        </p>
+
+                        <p>
+                            <strong>Technology:</strong>
+                            Verilog, FPGA
+                        </p>
+                    </div>
+                </article>
+
+
+                <!-- Project 2 -->
+                <article
+                    class="project-card"
+                    data-category="software">
+                    <img
+                        src="images/graphsurfing.png"
+                        alt="GraphSurfing software project">
+                    <div class="project-content">
+                        <p class="project-category">
+                            Software
+                        </p>
+                        <h3>GraphSurfing</h3>
+                        <p>
+                            A software project focused on exploring and
+                            navigating graph structures. The project provided
+                            experience with data structures, algorithms, and
+                            object-oriented programming.
+                        </p>
+
+                        <p>
+                            <strong>Technology:</strong>
+                            Java
+                        </p>
+                    </div>
+                </article>
+
+
+                <!-- Project 3 -->
+                <article
+                    class="project-card"
+                    data-category="software">
+                    <img
+                        src="images/neural-network.png"
+                        alt="Neural network classification visualization">
+
+                    <div class="project-content">
+                        <p class="project-category">
+                            Software
+                        </p>
+
+                        <h3>Neural Network Classification</h3>
+                        <p>
+                            Implemented and evaluated neural networks for
+                            classification problems, including experiments
+                            with multilayer networks and decision boundaries.
+                        </p>
+                        <p>
+                            <strong>Technology:</strong>
+                            Java, Neural Networks, Machine Learning
+                        </p>
+                    </div>
+                </article>
+            
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Shared footer -->
+    {% include portfolio_footer.html %}
+
+    <!-- Portfolio filtering JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
