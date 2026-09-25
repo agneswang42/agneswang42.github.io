@@ -315,3 +315,57 @@ h3 {
         transition: none;
     }
 }
+
+/* Resume page */
+.resume-section {
+    margin-bottom: 3rem;
+}
+
+.resume-item {
+    background-color: #ffffff;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    border: 1px solid #d7dee5;
+    border-left: 5px solid #17324d;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.resume-item h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #17324d;
+}
+
+.resume-meta {
+    margin-top: 0;
+    color: #526b80;
+}
+
+.resume-item ul {
+    margin-bottom: 0;
+    padding-left: 1.5rem;
+}
+
+.resume-item li {
+    margin-bottom: 0.6rem;
+}
+
+.skills-list,
+.coursework-list {
+    background-color: #ffffff;
+    padding: 1.5rem 1.5rem 1.5rem 2.5rem;
+    border: 1px solid #d7dee5;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.skills-list li,
+.coursework-list li {
+    margin-bottom: 0.6rem;
+}
+
+.skills-list li:last-child,
+.coursework-list li:last-child {
+    margin-bottom: 0;
+}
