@@ -1,8 +1,39 @@
-<html>
+<!DOCTYPE html>
+<html lang ="en">
 	<head>
-		<title>TODO</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Agnes Wang | Portfolio</title>
+		<link rel="stylesheet" href="styles.css">
 	</head>
 <body>
 <mark>TODO: implement your portfolio.</mark>
+	<body class="portfolio-site">
+		{% include portfolio_nav.html %}
+		<main>
+        <section class="hero">
+            <img
+                src="images/your-photo.jpg"
+                alt="Portrait of Agnes Wang"
+                class="profile-photo">
+
+            <div>
+                <h1>Agnes Wang</h1>
+                <p>
+					Student | Computer Science | Mathematics
+                </p>
+
+                <p>
+                    Welcome to my portfolio. This website showcases 
+					my education, technical skills, and projects.
+                </p>
+
+                <a class="button" href="resume.html">View My Resume</a>
+                <a class="button" href="portfolio.html">View My Projects</a>
+            </div>
+        </section>
+    </main>
+
+    {% include portfolio_footer.html %}
 </body>
 </html>
