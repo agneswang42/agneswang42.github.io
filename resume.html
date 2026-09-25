@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Agnes Wang | Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Shared navigation bar -->
+    {% include portfolio_nav.html %}
+
+    <main>
+        <!-- Resume introduction -->
+        <section class="page-intro" aria-labelledby="resume-heading">
+            <h1 id="resume-heading">Resume</h1>
+
+            <p>
+                My education, technical skills, coursework, and project
+                experience in computer science and mathematics.
+            </p>
+
+        </section>
+
+
+        <!-- Education -->
+        <section
+            class="resume-section"
+            aria-labelledby="education-heading">
+            <h2 id="education-heading">Education</h2>
+            <article class="resume-item">
+
+                <h3>
+                    Bachelor of Science in Computer Science and Mathematics
+                </h3>
+
+                <p>
+                    <strong>
+                        Rose-Hulman Institute of Technology
+                    </strong>
+                    <br>
+                    Terre Haute, IN
+                </p>
+
+                <p>
+                    <strong>GPA:</strong> 3.84
+                    <br>
+                    <strong>Expected Graduation:</strong> May 2029
+                    <br>
+                    <strong>Academic Standing:</strong> Junior
+                </p>
+
+            </article>
+        </section>
+
+
+        <!-- Coursework -->
+
+        <section
+            class="resume-section"
+            aria-labelledby="coursework-heading">
+            <h2 id="coursework-heading">Relevant Coursework</h2>
+
+            <ul class="coursework-list">
+                <li>Computer Architecture</li>
+                <li>Operating Systems</li>
+                <li>Artificial Intelligence</li>
+                <li>Data Mining</li>
+                <li>Machine Learning</li>
+                <li>Database Systems</li>
+                <li>Design and Analysis of Algorithms</li>
+                <li>Programming Language Concepts</li>
+                <li>Web Programming</li>
+            </ul>
+        </section>
+
+
+        <!-- Technical skills -->
+        <section
+            class="resume-section"
+            aria-labelledby="skills-heading">
+            <h2 id="skills-heading">Technical Skills</h2>
+            <ul class="skills-list">
+                <li>
+                    <strong>Programming Languages:</strong>
+                    Java, Python, C, C++
+                </li>
+                <li>
+                    <strong>Tools:</strong>
+                    Git, Linux, MATLAB, Quartus Prime,
+                    Visual Studio Code, Anaconda
+                </li>
+                <li>
+                    <strong>Hardware:</strong>
+                    Verilog, ARM Assembly, RISC-V Assembly
+                </li>
+                <li>
+                    <strong>Languages Spoken:</strong>
+                    English (Fluent), Mandarin Chinese (Native)
+                </li>
+            </ul>
+        </section>
+
+
+        <!-- Project experience -->
+        <section
+            class="resume-section"
+            aria-labelledby="experience-heading">
+            <h2 id="experience-heading">Project Experience</h2>
+            <!-- GraphSurfing -->
+            <article class="resume-item">
+                <h3>
+                    GraphSurfing
+                </h3>
+                <p class="resume-meta">
+                    <strong>
+                        Java, Data Structures &amp; Algorithms
+                    </strong>
+                </p>
+
+                <ul>
+                    <li>
+                        Designed and implemented a reusable Java graph
+                        framework supporting adjacency-list and
+                        adjacency-matrix representations with lazy
+                        neighbor iterators.
+                    </li>
+                    <li>
+                        Implemented shortest-path search and strongly
+                        connected component algorithms using graph
+                        traversal techniques.
+                    </li>
+                    <li>
+                        Analyzed time and space trade-offs between graph
+                        representations through benchmarking and
+                        optimization.
+                    </li>
+                    <li>
+                        Scaled the implementation to process a Wikipedia
+                        hyperlink graph containing 700,000+ vertices
+                        and 3.6 million edges.
+                    </li>
+                </ul>
+            </article>
+
+
+            <!-- Java Pixel Collision Game -->
+            <article class="resume-item">
+                <h3>
+                    Java Pixel Collision Game
+                </h3>
+                <p class="resume-meta">
+                    <strong>Team Lead</strong>
+                </p>
+                <ul>
+                    <li>
+                        Led a team in designing and developing a Java-based
+                        GUI pixel collision game using object-oriented
+                        design and UML.
+                    </li>
+                    <li>
+                        Implemented core gameplay features, including
+                        player/enemy movement, collision detection,
+                        level progression, sound effects, and
+                        real-time score display.
+                    </li>
+                    <li>
+                        Presented project architecture and functionality
+                        during a formal class and faculty demonstration.
+                    </li>
+                </ul>
+            </article>
+
+
+            <!-- FPGA Atari PONG -->
+            <article class="resume-item">
+                <h3>
+                    FPGA Atari PONG Recreation
+                </h3>
+                <p class="resume-meta">
+                    <strong>
+                        Verilog HDL, Quartus Prime
+                    </strong>
+                </p>
+                <ul>
+                    <li>
+                        Designed and implemented a modified Atari Pong
+                        game on FPGA hardware using Verilog HDL and
+                        Quartus Prime.
+                    </li>
+                    <li>
+                        Verified circuit functionality through simulation,
+                        synthesis, timing analysis, and hardware testing.
+                    </li>
+                    <li>
+                        Documented design decisions and presented project
+                        results through technical reports and
+                        demonstrations.
+                    </li>
+                </ul>
+
+            </article>
+
+        </section>
+
+
+        <!-- Additional information -->
+
+        <section
+            class="resume-section"
+            aria-labelledby="additional-heading">
+            <h2 id="additional-heading">Additional Information</h2>
+            <p>
+                My academic and project experience combines software
+                development, algorithms, computer architecture, hardware
+                design, and machine learning.
+            </p>
+        </section>
+
+    </main>
+
+
+    <!-- Shared footer -->
+    {% include portfolio_footer.html %}
+
+
+</body>
+</html>
